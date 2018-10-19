@@ -1,0 +1,115 @@
+//VARIABLES
+$fuente: 75% sans-serif;
+$color-h1: purple;
+$color-fondo-destacado: beige;
+$color-naranja: orangered;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7em;
+    font: $fuente;
+        
+}
+h1{
+    color: $color-h1;
+    padding-top: 1.5em;
+    font-weight: normal;
+}
+h6{
+   display: inline-block;
+   font-weight: normal;
+}
+hr{
+    margin-top: 3em;
+    border: 1px dotted black;
+ 
+}
+form{
+    display: inline-block;
+    float:right;
+    input{
+        text-align: center;
+    }  
+}
+#destacado{
+    background-color: $color-fondo-destacado;
+    overflow: auto;
+    
+    img{
+        margin: 2em;
+        float: left;
+           
+    }
+    h2{
+    align-items: center; 
+    display: flex;
+    font-weight: normal;
+    margin-bottom: 2em;
+    margin-top: 5em;
+    padding-left: 3.5em;
+    width: 50%;   
+        
+    }
+    p{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5em;
+    }
+}
+#galeria{
+    padding-top: 2em;
+    
+    img{
+        border: 1px solid black;
+        padding: 2px;
+    }
+    
+}
+#pie{
+    margin-top: 2em;
+    background-color: $color-fondo-destacado;
+    span{
+        float: right;
+    }
+}
+
+.componente{
+    width: 30%;
+    display: inline-block;
+    margin-right: 2em;
+    img{
+        border: solid 1px black;
+        padding: 3px;
+        vertical-align: text-top;
+    }
+    h3{
+        color: $color-naranja;
+        font-weight: normal;
+        margin-bottom: 1em;
+        margin-top: 1.5em;
+    }
+    a{
+        background-color: $color-fondo-destacado;
+        color: $color-naranja;
+        display: block;
+        margin-top: 1.5em;
+        padding: 0.3em;
+        text-decoration: none;
+        width: 50%;
+        
+        
+    }
+    p{
+        display: inline;
+        text-align: right;
+      
+    }
+}
